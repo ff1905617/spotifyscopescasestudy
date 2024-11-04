@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+/*TEXT STYLES DESKTOP*/
+@font-face{
+    font-family: 'SF-Pro';
+    src: url("fonts/SF-Pro.ttf");
+}
+@font-face {
+    font-family: 'consolas';
+    src: url("fonts/CONSOLA.TTF");
+}
+@font-face {
+    font-family: 'consolas-bold';
+    src: url("fonts/CONSOLAB.TTF");
+}
+h1{
+    font-family: 'consolas';
+    font-size: 6rem;
+    font-weight: 700;
+    color: white;
+}
+h2{
+    font-family: 'consolas';
+    font-size: 4rem;
+    font-weight: 400;
+    color: white;
+}
+h3{
+    font-family: 'consolas';
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: white;
+}
+h4{
+    font-family: 'consolas-bold';
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    font-weight: 600;
+    color: white;
+}
+p{    
+    font-family: 'consolas';
+    font-size: 1.25rem;
+    font-weight: 200;
+    line-height: 2rem;
+    color: white;
+}
+blockquote{    
+    font-family: 'consolas';
+    font-size: 1.25rem;
+    font-weight: 200;
+    line-height: 2rem;
+    color: white;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+.case-study-headings{
+margin-bottom: 8px;
+margin-top: 8px;
+
+}
+/*FRAMES DESKTOP*/
+.title-block{
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+iframe{
+    width: 640px;
+    height: 480px;
+    display: block;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+#screens{
+    display: inline-flex;
+    vertical-align: middle;
+    width: 640px;
+    height: 480px;
+}
+.case-study-block{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+.flex-item{
+    flex: 50%;
+}
+#week-one{
+    background-color: #252525;
+    padding: 16px;
+}
+#week-one-mobile{
+    display: none;
+}
+.user-card{
+    padding: 2rem;
+    margin-right: 3rem;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    display: inline-block;
+    max-width: 100%;
+}
+#uc-one{
+    background-color: #252525;
+}
+#uc-two{
+    background-color: #252525;
+}
+#uc-three{
+    background-color: #252525;
+}
+#uc-four{
+    background-color: #252525;
+}
+#uc-five{
+    background-color: #252525;
+}
+#uc-six{
+    background-color: #252525;
+    padding: 16px;
+}
+#user-image-one{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 50%;
+    background-image: url("images/persona2.png");
+    filter: grayscale(100%);
+    background-size: contain;
+    display: inline-flex;
+}
+#user-image-two{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 50%;
+    background-image: url("images/persona1.png");
+    filter: grayscale(100%);
+    background-size: contain;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    width: 400px;
+    height: 250px;
+    resize: none;
+    background-color: #252525;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    font-size: .75rem;
+}
+.action-block{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #252525;
+    padding: 16px;
+    font-family: 'consolas';
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.25rem;
+    color: white;
+    margin: 16px;
+
+}
+#arrow{
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+.path{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    background-color: #121212;
+    text-align: center;
+    margin-top: 16px;
+}
+.sketches{
+    margin: auto;
+    display: block;
+}
+@media only screen and (max-width: 1000px){
+    /*TEXT STYLES DESKTOP*/
+h1{
+    font-family: 'consolas';
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+h2{
+    font-family: 'consolas';
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+h3{
+    font-family: 'consolas';
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: white;
+}
+h4{
+    font-family: 'consolas-bold';
+    font-size: 1.25rem;
+    font-variant: small-caps;
+    font-weight: 600;
+    color: white;
+}
+p{    
+    font-family: 'consolas';
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 2rem;
+    color: white;
+}
+blockquote{    
+    font-family: 'consolas';
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 2rem;
+    color: white;
+}
+.case-study-headings{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/*FRAMES DESKTOP*/
+.title-block{
+    text-align: center;
+    padding: 2rem;
+}
+.case-study-block{
+    padding: 16px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.flex-item{
+    flex: 50%;
+}
+.user-card{
+    padding: .5rem;
+    background-color: #252525;
+    display: inline-block;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 2rem;
+}
+.user-image-one{
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
+    border-radius: 50%;
+    background-image: url("images/persona1.png");
+    background-size: contain;
+    display: inline-flex;
+}
+.user-image-two{
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
+    border-radius: 50%;
+    background-image: url("images/persona1.png");
+    background-size: contain;
+    display: inline-flex;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    vertical-align: middle;
+}
+#week-one{
+    display: none;
+}
+#week-one-mobile{
+    display: block;
+    margin: auto;
+    background-color: #252525;
+    padding: 16px;
+}
+#user-image-one{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 50%;
+    background-image: url("images/persona2.png");
+    filter: grayscale(100%);
+    background-size: contain;
+    display: inline-flex;
+}
+#user-image-two{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 50%;
+    background-image: url("images/persona1.png");
+    filter: grayscale(100%);
+    background-size: contain;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    width: 400px;
+    height: 250px;
+    resize: none;
+    background-color: #252525;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    font-size: .75rem;
+}
+.action-block{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 15px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #252525;
+    padding: 16px;
+    font-family: 'consolas';
+    font-size: 8px;
+    font-weight: 200;
+    line-height: 12px;
+    color: white;
+    margin: 16px;
+}
+#arrow{
+    background-color: black;
+    width: 245px;
+    height: 25px;
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+.path{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    background-color: #121212;
+    text-align: center;
+    margin-top: 16px;
+}
+iframe{
+    width: 420px; 
+    height: 350px;
+}
+
+}

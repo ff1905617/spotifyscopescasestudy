@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+	<title>Spotify Scopes</title>
+</head>
+<body>
+
+<!--TITLE BLOCK-->
+    <div class="title-block">
+	    <h1>Spotify Scopes</h1>
+        <h2>Case Study</h2>
+    </div>
+
+<!--WRAPPER-->
+
+
+<div class="case-study-block">
+        <div class="flex-container">
+
+        <div class="flex-item" style="padding-right: 24px;">
+            <iframe id="wrapper" src="https://www.youtube.com/embed/6fzClSIt2IM">
+            </iframe>
+        </div>
+
+        <div class="flex-item" style="padding-left: 24px;">
+        <div class="case-study-headings">
+            <h4>objective:</h4>
+        </div>
+
+            <p>
+                Create a spotify extension that allows users to engage with, share 
+                and create exciting viusals while listening to music through the power of 
+                Javascript audio visualizers/oscilloscopes.  
+            </p>
+
+            <br>
+
+            <div class="case-study-headings">
+                <h4>tools:</h4>
+            </div>
+
+            <p>Figma, Javascript, iMovie</p>
+
+            <br>
+
+            <div class="case-study-headings">
+                <h4>role:</h4>
+            </div>
+
+                <p>UX designer, developer and video editor</p>
+            
+            <br>
+
+            <div class="case-study-headings">
+                <h4>duration:</h4>
+            </div>
+
+                <p>September 2024-October 2024</p>
+        </div>
+
+        </div>
+
+<!--INTRODUCTION-->
+
+        <div class="case-study-headings">
+            <h3>Who is it for?</h3>
+        </div>
+
+        <p>Spotify Scopes is meant to connect people who are interested in creating 
+            and sharing generative art. It is also meant to give people who may not
+            be interested in programming a more immersive way to listen to music. 
+            Whether it be creating an exciting atmosphere for a party or a chill vibe 
+            for studying, Spotify Scopes will set the mood. For this project, I have
+            created two user personas to contextualize my research.
+        </p>
+
+        <br>
+
+<!--PERSONAS-->
+
+        <div class="flex-container">
+            
+            <div class="flex-item">
+            <div class="user-card" id="uc-one">
+                <div id="user-image-two"></div>
+                <p><b>Pete</b> is a third year graphic design student who became interested 
+                in programming and generative art through exploring Javascript in
+                his Web Design class. He loves music and started using his coding
+                skills to make visuals for his favorite music. He uses Spotify and 
+                wished there was a way to connect it to his projects.
+                </p>
+            </div>
+            </div>
+
+            <div class="flex-item">
+            <div class="user-card" id="uc-two">
+                <div id="user-image-one"></div>
+                <p><b>Harold</b> is 23 years old. He has a group of friends who he grew up
+                    with and they have a lot of weekend get togethers at his house.
+                    When the night winds down they usually take turns playing new 
+                    music and music videos on the TV. This is their weekly routine 
+                    and Harold is looking for something new and interesting to show 
+                    his friends and keep the party alive.
+                </p>
+
+            </div>
+        </div>
+
+        </div>
+
+<!--WEEK 1-->
+
+    <div class="case-study-headings">
+        <h3>Week One: General Research</h3>
+        </div>
+        <p>In order to develop my concept, two of my colleagues and I, Rory and Beni,
+        researched different Algorithm based features for streaming apps and decided that
+        Spotify was the right choice because it offered the most room for customization.</p>
+
+        <div class="flex-container">
+            <div class="flex-item">
+        <div class="user-card" id="uc-four">
+        <div class="case-study-headings">
+        <h4>daylist</h4>
+
+        <p>Creates a playlist based on your listening histoy, based on the times of the day
+            you listen to it. Creates a creative title and allows you to share playlists with friends.
+        </p>
+        </div>
+
+        <div class="case-study-headings">
+        <h4>superfan</h4>
+
+        <p>An external feature that uses your weekly data from Spotify to write a funny blurb
+            about your listening history and shares it with your friends.
+        </p>
+        </div>
+
+        <div class="case-study-headings">
+        <h4>rewind</h4>
+        
+
+        <p>Uses your yearly listening data to show you your top artists for that year as well as other statistics.
+             You can share it with friends and compare your listening history.  </p>
+        </div>
+        </div>
+        </div>
+        </div>
+        <p style="margin-bottom: 2rem;">Something all of these features have in common is that they create some type of community surrounding music 
+            using an algorithm. I hadn't landed on a concept after conducting our research and was feeling lost. That is,
+            until I remembered an algoithm based music application from my childhood: <b>Visualizations for Windows Media Player.</b>
+            Upon doing further research, I realized there was an entire community surrounding Windows media player and developing different
+            visualizer skins for it. Unfortunately, windows disabled the visualization feature after Windows 10 and on top of that, I have a Mac.
+            I found this extremely interesting and wanted to run with the concept.
+        </p>
+
+        <div class="flex-container" id="week-one">
+            <div class="flex-item">
+        <img src="images/mediaplayer.png" style="width: 420px; height: 375px;float: left;">
+            </div>
+            <div class="flex-item">
+                <img src="images/wmbgoodies.png" style="width: 420px; height: 375px; display: block; margin: auto;">
+                    </div>
+                    <div class="flex-item">
+                        <img src="images/marioskin.png" style="width: 420px; height: 375px; float: right;">
+                            </div>
+        </div>
+
+<!--MOBILE PICS-->
+
+        <div class="flex-container" id="week-one-mobile">
+            <div class="flex-item">
+        <img src="images/mediaplayer.png" style="width: 420px; height: 375px; display: block; margin: auto;">
+            </div>
+            <div class="flex-item">
+                <img src="images/wmbgoodies.png" style="width: 420px; height: 375px; display: block; margin: auto;">
+                    </div>
+                    <div class="flex-item">
+                        <img src="images/marioskin.png" style="width: 420px; height: 375px; display: block; margin: auto;">
+                            </div>
+        </div>
+
+<!--WEEK 2-->
+
+    <div class="case-study-headings">
+        <h3>Week Two: Sketches and User Research</h3>
+        </div>
+        
+        <div class="user-card" id="uc-five">
+
+            <h4>solidified concept:</h4>
+
+            <br>
+
+            <blockquote>A spotify extension that allows users to engage with, share 
+                and create exciting viusals while listening to music through the power of 
+                Javascript audio visualizers/oscilloscopes.
+            </blockquote>
+    
+        </div>
+
+
+        <div class="case-study-headings">
+            <h4>user problem</h4>
+        </div>
+
+        <div class="path">
+
+        <div class="action-block" id="user-image-one"></div>
+
+        <div class="action-block">Harold wants to keep his friends entertained while they're over for a party.</div>
+
+        <div class="action-block" id="arrow">&rarr;</div>
+
+        <div class="action-block">They are using Spotify Jams but are running out of ideas.</div>
+
+        <div class="action-block" id="arrow">&rarr;</div>
+
+        <div class="action-block">The party is dying down and people are on their phones.</div>
+
+        <div class="action-block" id="arrow">&rarr;</div>
+
+        <div class="action-block">Harold needs something new to rejuvinate his guests</div>
+
+        </div>
+
+
+        <div class="path" style="margin-bottom: 16px;">
+
+        <div class="action-block" id="user-image-two"></div>
+
+        <div class="action-block">Pete wants to create an audio visualizer with JS but doesn’t know how.</div>
+
+        <div class="action-block" id="arrow">&rarr;</div>
+        
+        <div class="action-block">He wishes there was a bigger community for people who made audio visualizers.</div>
+
+        <div class="action-block" id="arrow">&rarr;</div>
+
+        <div class="action-block">He remembers Windows Media Player Visualizers but the community fizzled out after Windows 10.</div>
+
+        <div class="action-block" id="arrow">&rarr;</div>
+
+        <div class="action-block">Pete wishes there was a modern, more accessible community for creative coders.</div>
+
+        </div>
+
+        <div class="case-study-headings">
+            <h4>user action</h4>
+        </div>
+
+
+        <div class="path">
+
+        <div class="action-block" id="user-image-one"></div>
+    
+        <div class="action-block">Harold opens up the Spotify Jam he is using with his friends.</div>
+    
+        <div class="action-block" id="arrow">&rarr;</div>
+    
+        <div class="action-block">He opens the oscilloscope feature and browses public files</div>
+    
+        <div class="action-block" id="arrow">&rarr;</div>
+    
+        <div class="action-block">He launches an oscilloscope that would fit his playlist and casts it to the TV.</div>
+    
+        <div class="action-block" id="arrow">&rarr;</div>
+    
+        <div class="action-block">Everybody is talking about the new feature and enjoying the party.</div>
+    
+        </div>
+
+
+        <div class="path">
+
+        <div class="action-block" id="user-image-two"></div>
+
+        <div class="action-block">Pete discovers Spotify Scopes and browses the public files.</div>
+
+        <div class="action-block" id="arrow">&rarr;</div>
+
+        <div class="action-block">Pete tries out and downloads a visualizer file. He airdrops it to his computer.</div>
+
+        <div class="action-block" id="arrow">&rarr;</div>
+
+        <div class="action-block">He opens a text editor and begins customizing the file, learning as he goes.</div>
+
+        <div class="action-block" id="arrow">&rarr;</div>
+
+        <div class="action-block">He friends the creator of the file on Spotify and shares the edited version with them.</div>
+
+        </div>
+
+        <div class="sketches">
+
+        <div class="user-card" id="uc-six">
+
+            <img src="images/sketches.png">
+            
+            <p style="text-align: center; margin-top: 24px;">The sketches used to map out my 
+                <br> wireframes and final draft of screens.</p>
+
+        </div>
+
+        </div>
+
+<!--WEEK 3 & 4-->
+
+    <div class="case-study-headings">
+        <h3>Week Three and Four: Wireframes to Final Screens</h3>
+        </div>
+
+        <div class="flex-container">
+            <div class="flex-item">
+                <h4>wireframes</h4>
+                <iframe id="screens" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="300px" height="150px" src="https://embed.figma.com/proto/8YwPHgCXyOJHHGnv9wZ5iy/fitzgerald_scopes_100424?node-id=1-203&node-type=canvas&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A203&embed-host=share" allowfullscreen></iframe>
+            </div>
+        
+            <div class="flex-item">
+                <h4>final screens</h4>
+                <iframe id="screens" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="300px" height="150px" src="https://embed.figma.com/proto/hmbbfIJUufrriTmvQBCv2H/fitzgerald_scopes_100424?page-id=0%3A1&node-id=1-203&node-type=canvas&viewport=-621%2C-26%2C0.25&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A203&embed-host=share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+<!--WEEK 5-->
+
+    <div class="case-study-headings">
+        <h3>Week Five: Advertisement</h3>
+        </div>
+        <p>During week five I planned my advertisement for Spotify Scopes. I wanted to focus on Harold's user problem for the video 
+            because it's a more relateable issue for the majority of Spotify users. I still included a scene of the main character
+            airdropping a Javascript file to his phone because the creation of a community for creative coders is an important part 
+            of the story.
+        </p>
+        <div class="flex-container">
+            <div class="flex-item">
+            <img style="width: 640px; height: 480px;" src="images/storyboard_1.png">
+            </div>
+
+            <div class="flex-item">
+            <img style="width: 640px; height: 480px;" src="images/storyboard_2.png">
+            </div>
+        </div>
+
+<!--PROOF OF CONCEPT-->
+    
+     <div class="case-study-headings">
+        <h3>Proof of concept</h3>
+    </div>
+        <p>for this project, I wanted to create an actual audio visualizer
+            to prove that this could be done. The visualizer uses the getByteFrequencyData()
+            instance method to convert the audio frequency data into an array. Each item in
+            the array represents the decible value for a given frequency that is then animated
+            on an html canvas.</p>
+
+    <iframe src="https://ff1905617.github.io/audioviz/index.html"></iframe>
+
+    <div class="flex-container">
+        <div class="flex-item">
+
+        </div>
+
+    <br>
+
+        <div class="flex-item">
+
+        </div>
+        </div>
+
+<!--HTML-->
+
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="case-study-headings">
+                    <h3>HTML</h3>
+                </div>
+            <textarea id="editor">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;VIZ&lt;/title&gt;
+    &lt;link rel="stylesheet" href="style.css"&gt;
+&lt;body&gt;
+                
+    &lt;div id="container"&gt;
+    &lt;canvas id="myCanvas"&gt;&lt;/canvas&gt;
+    &lt;audio id="myAudio" controls&gt;&lt;/audio&gt;
+    &lt;input type="file" id="fileupload" accept="audio/* /"&gt;
+     &lt;/div&gt;
+                
+&lt;script src="index.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+            </textarea>
+            </div>
+
+<!--CSS-->
+
+            <div class="flex-item">
+                <div class="case-study-headings">
+                    <h3>CSS</h3>
+                </div>
+            <textarea id="editor">
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box; 
+            }
+            #container{
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: black;
+                width: 100%;
+                height: 100%;
+            }
+            #myCanvas{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+            #myAudio{
+                width: 50%;
+                margin: 50px auto;
+                display: block;
+            
+            }
+            #fileupload{
+                position: absolute;
+                top: 150px;
+                color: #ffffff;
+                z-index: 100;
+            }</textarea>
+            </div>
+
+<!--JS-->
+
+            <div class="flex-item">
+                <div class="case-study-headings">
+                    <h3>JS</h3>
+                </div>
+            <textarea id="editor">const container = document.getElementById('container');
+                const canvas = document.getElementById('myCanvas');
+                const file = document.getElementById('fileupload');
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+                const ctx = canvas.getContext('2d');
+                let audioSource;
+                let analyser;
+                
+                container.addEventListener('click', function(){
+                    const audio1 = document.getElementById('myAudio');
+                    const audioContext = new AudioContext();
+                    audio1.play();
+                    audioSource = audioContext.createMediaElementSource(audio1);
+                    analyser = audioContext.createAnalyser();
+                    audioSource.connect(analyser);
+                    analyser.connect(audioContext.destination);
+                    analyser.fftSize = 1024; //32, 64, 128, 256, 512, 1024...
+                    const bufferLength = analyser.frequencyBinCount;
+                    const dataArray = new Uint8Array(bufferLength);
+                    const barWidth = canvas.width * 2/bufferLength;
+                    let barHeight; 
+                    let x;
+                
+                    function animate(){
+                        x = 0;
+                        ctx.clearRect(0, 0, canvas.width, canvas.height);
+                        analyser.getByteFrequencyData(dataArray);
+                        for (let i = 0; i< bufferLength; i++){
+                            barHeight = dataArray[i]* 1.5; //adjust bar height here
+                            ctx.save();
+                            ctx.translate(canvas.width/2, canvas.height/2);
+                            ctx.rotate(i * Math.PI * 10 / bufferLength); //Radians
+                            ctx.fillStyle = 'hsl(' + i * 2 +', 100%, 50%)';
+                            ctx.fillRect(0, 0, barWidth/2, barHeight);
+                            ctx.strokeStyle = 'hsl(' + i * 2 +', 100%, 50%)';
+                            ctx.strokeRect(0, i, barWidth, barHeight);
+                            x += barWidth;
+                            ctx.restore();
+                        }
+                        requestAnimationFrame(animate);
+                    }
+                    animate();
+                });
+                //PICK A FILE 
+                file.addEventListener('change', function(){
+                    const files = this.files;
+                    const audio1 = document.getElementById('myAudio');
+                    audio1.src = URL.createObjectURL(files[0]);
+                    audio1.load();
+                    audio1.play();
+                    audioSource = audioContext.createMediaElementSource(audio1);
+                    analyser = audioContext.createAnalyser();
+                    audioSource.connect(analyser);
+                    analyser.connect(audioContext.destination);
+                    analyser.fftSize = 512; //32, 64, 128, 256, 512, 1024...
+                    const bufferLength = analyser.frequencyBinCount;
+                    const dataArray = new Uint8Array(bufferLength);
+                    const barWidth = canvas.width/bufferLength;
+                    let barHeight; 
+                    let x;
+                
+                    function animate(){
+                        x = 0;
+                        ctx.clearRect(0, 0, canvas.width, canvas.height);
+                        analyser.getByteFrequencyData(dataArray);
+                        //deleted for loop
+                        drawVisualizer(bufferLength, x, barWidth, barHeight, dataArray);
+                        requestAnimationFrame(animate);
+                    }
+                    animate();
+                });
+                
+                function drawVisualizer(bufferLength, x, barWidth, barHeight, dataArray){
+                    for (let i = 0; i < bufferLength; i++){
+                        barHeight = dataArray[i]; //adjust bar height here color below
+                        ctx.save();
+                        ctx.translate(canvas.width/2, canvas.height/2);
+                        ctx.rotate(i * Math.PI * 2 / bufferLength);
+                        const red = i * barHeight/0;
+                        const green = i * 4;
+                        const blue = barHeight/2;
+                        ctx.fillStyle = 'rgb(' + red + green + blue +')';
+                        ctx.fillRect(0, 0, barWidth, barHeight);
+                        x += barWidth;
+                        ctx.restore();
+                    }
+                }</textarea>
+            </div>
+        </div>
+
+
+        <script>
+            let editor = CodeMirror.fromTextArea(document.getElementById('editor'), {
+                mode:  "javascript"
+            });
+        </script>
+    
+    </div>
+</body>
+</html>
+
